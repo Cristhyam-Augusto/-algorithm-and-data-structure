@@ -34,7 +34,7 @@ export default class Stack {
   }
   push(element) {
     //o push cria um conjunto de pares chaves e valor, utilizando o count e o elemento do push.
-    this.items[this.count] = element;
+    this.items[this.count] = element; //
     this.count++;
   }
   pop() {
@@ -59,7 +59,6 @@ export default class Stack {
     this.items = {};
     this.count = 0;
   }
-
   toString() {
     if (this.isEmpty()) {
       return "";

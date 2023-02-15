@@ -16,4 +16,4 @@ function decimalToBinary(decNumber) {
   return binaryString;
 }
 
-console.log(decimalToBinary(233));
+console.log(decimalToBinary(12));
